@@ -35,6 +35,10 @@ jobs:
     runs-on: windows-latest
     needs: build
     steps:
+    - uses: azure/login@v1
+      with:
+        creds: ${{secrets.Personal_Website_Victor_F1F3}}
+
     - name: Download artifact from build job
       uses: actions/download-artifact@v3
       with:
