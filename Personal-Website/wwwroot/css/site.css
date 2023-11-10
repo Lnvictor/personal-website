@@ -16,3 +16,8 @@ html {
 body {
   margin-bottom: 60px;
 }
+
+.nav-item:hover{
+    background-color: midnightblue;
+    border-radius: 5px;
+}
