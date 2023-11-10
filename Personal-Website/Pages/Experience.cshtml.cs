@@ -7,6 +7,7 @@ namespace Personal_Website.Pages
     {
         public void OnGet()
         {
+            // trigger
         }
     }
 }
