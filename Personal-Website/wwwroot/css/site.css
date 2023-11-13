@@ -1,5 +1,6 @@
 html {
-  font-size: 14px;
+    font-size: 14px;
+    font-family: 'Rajdhani';
 }
 
 @media (min-width: 768px) {
@@ -9,15 +10,30 @@ html {
 }
 
 html {
-  position: relative;
-  min-height: 100%;
+    position: relative;
+    min-height: 100%;
+    font-family: 'Rajdhani';
 }
 
 body {
-  margin-bottom: 60px;
+    margin-bottom: 60px;
+    font-family: 'Rajdhani';
 }
 
-.nav-item:hover{
-    background-color: midnightblue;
+.navbar{
+    background-color: white;
+}
+
+.nav-item > a {
+    color: black;
+    font-family: 'Rajdhani';
+}
+
+.nav-item:hover {
+    background-color: cornflowerblue;
     border-radius: 5px;
+}
+
+.nav-item:hover > a{
+    color: white;
 }
