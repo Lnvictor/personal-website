@@ -1,0 +1,257 @@
+<div>
+    <mat-grid-list [ngClass]="'section-grid'" cols="2" rowHeight="1:1" *ngIf="section === 'about'">
+        <mat-grid-tile>
+            <img src="../../assets/photo.jpg" alt="" srcset="" [ngClass]="'profile-photo'">
+        </mat-grid-tile>
+
+        <mat-grid-tile>
+            <div [ngClass]="'right-text'">
+                <p [ngClass]="'text'">Sou o Víctor Pereira, nascido em Campinas, interior de São Paulo. Tenho 23 anos e
+                    trabalho com
+                    programação há 3 anos, já trabalhei com diversas tecnologias
+                    como: Java, Python, .NET, JavaScript. Trabalhei em grandes projetos para clentes dos setores
+                    financeiros, educaionais e de análise de audiência.
+                    <br><br>
+                    Nesses anos de experiência, tive a oportunidade de trabalhar em várias equipes diferentes,
+                    utilizando
+                    metodologias ágeis de desenvolvimento de software como SCRUM. Também implementei soluções
+                    hospedadas em provedores cloud como Azure e GCP.
+                    <br><br>
+                    Me formei no curso superior de Tecnologia em Análise e desenvolvimento de sistemas pela Universidade
+                    Estadual de Campinas (UNICAMP) a qual teve uma
+                    grande influência no profissional que me tornei hoje.
+                </p>
+            </div>
+        </mat-grid-tile>
+    </mat-grid-list>
+
+    <mat-grid-list [ngClass]="'section-grid'" cols="3" rowHeight="1:1" *ngIf="section === 'projects'">
+        <mat-grid-tile>
+            <mat-card class="generic-card">
+                <mat-card-header>
+                    <mat-card-title>
+                        CONTROLADOR DE FINANÇAS PESSOAIS
+                    </mat-card-title>
+                </mat-card-header>
+                <br>
+                <mat-card-content>
+                    <p>
+                        Esse é um projeto que estou implementando para o controle das minhas finanças pessoais,
+                        neste website é possível cadastrar todas as minhas compras e determinar o respectivo valor
+                        a pagar mensalmente e como consequência calculando os gastos mensais.
+                    </p>
+                </mat-card-content>
+                <mat-card-actions>
+
+                    <a href="https://github.com/Lnvictor/GeldCSharp">
+                        <button mat-button>GITHUB
+                        </button>
+                    </a>
+
+                </mat-card-actions>
+            </mat-card>
+        </mat-grid-tile>
+        <mat-grid-tile>
+            <mat-card class="generic-card">
+                <mat-card-header>
+                    <mat-card-title>
+                        COMPACTADOR DE ARQUIVOS
+                    </mat-card-title>
+                </mat-card-header>
+                <br>
+                <mat-card-content>
+                    <p>
+                        Este é um projeto realizado com a linguagem c# e windows forms, no qual implementei
+                        um compactador de arquivos utilizando o algoritmo LZ77. Também será implementado o
+                        algoritmo de Huffman (Em desenvolvimento). Após a execução, os arquivos são gerados com a
+                        extensão .lz77, e quando descompactados voltam a extensão original.
+                    </p>
+                </mat-card-content>
+                <mat-card-actions>
+                    <a href="https://github.com/Lnvictor/dummy-compressor">
+                        <button mat-button>GITHUB
+                        </button>
+                    </a>
+                </mat-card-actions>
+            </mat-card>
+        </mat-grid-tile>
+        <mat-grid-tile>
+            <mat-card class="generic-card">
+                <mat-card-header>
+                    <mat-card-title>
+                        Geld
+                    </mat-card-title>
+                </mat-card-header>
+
+                <mat-card-content>
+                    <p>
+                        Esse e um prjeto bla bla bla
+                    </p>
+                </mat-card-content>
+                <mat-card-actions>
+                    <button mat-button>GITHUB</button>
+                </mat-card-actions>
+            </mat-card>
+        </mat-grid-tile>
+        <mat-grid-tile>
+            <mat-card class="generic-card">
+                <mat-card-header>
+                    <mat-card-title>
+                        Geld
+                    </mat-card-title>
+                </mat-card-header>
+
+                <mat-card-content>
+                    <p>
+                        Esse e um prjeto bla bla bla
+                    </p>
+                </mat-card-content>
+                <mat-card-actions>
+                    <button mat-button>GITHUB</button>
+                </mat-card-actions>
+            </mat-card>
+        </mat-grid-tile>
+    </mat-grid-list>
+
+    <mat-grid-list [ngClass]="'section-grid'" cols="3" rowHeight="1:1" *ngIf="section === 'xp'">
+        <mat-grid-tile>
+            <mat-card class="generic-card">
+                <mat-card-header>
+                    <mat-card-title>
+                        ESTÁGIO EM QA - IES2
+                    </mat-card-title>
+                    <mat-card-subtitle>
+                        Ago 2020 - Dez 2020
+                    </mat-card-subtitle>
+                </mat-card-header>
+                <br>
+                <mat-card-content>
+                    <p>
+                        A IES2 é uma empresa especializada em educação a distância. Trabalhei em projetos para clientes
+                        e também na plataforma da empresa. Atuei efetuando testes manuais e desenvolvendo testes
+                        automatizados utilizando a linguagem de programação Python e framework Selenium
+                    </p>
+                </mat-card-content>
+                <mat-card-actions>
+
+                    <a href="https://www.ies2.com.br/">
+                        <button mat-button>SITE DA EMPRESA
+                        </button>
+                    </a>
+
+                </mat-card-actions>
+            </mat-card>
+        </mat-grid-tile>
+        <mat-grid-tile>
+            <mat-card class="generic-card">
+                <mat-card-header>
+                    <mat-card-title>
+                        ESTÁGIO EM DESENVOLVIMENTO DE SOFTWARE
+                    </mat-card-title>
+                    <mat-card-subtitle>
+                        JAN 2021 - JAN 2022
+                    </mat-card-subtitle>
+                </mat-card-header>
+                <br>
+                <mat-card-content>
+                    <p>
+                        A Kumulus é uma empresa especializada em implementação de serviços em Cloud, mas também cria
+                        projetos de software por demanda, atuei em diversos projetos desse tipo. Na Kumulus tive a
+                        oportunidade de atuar com diversas tecnologias como: Python, NodeJS, Java, .NET e Azure.
+                    </p>
+                </mat-card-content>
+                <mat-card-actions>
+                    <a href="https://www.kumulus.com/">
+                        <button mat-button>SITE DA EMPRESA
+                        </button>
+                    </a>
+                </mat-card-actions>
+            </mat-card>
+        </mat-grid-tile>
+        <mat-grid-tile>
+            <mat-card class="generic-card">
+                <mat-card-header>
+                    <mat-card-title>
+                        DESENVOLVEDOR JÚNIOR
+                    </mat-card-title>
+
+                    <mat-card-subtitle>
+                        FEV 2022 - JUN 2023
+                    </mat-card-subtitle>
+                </mat-card-header>
+                <br>
+                <mat-card-content>
+                    <p>
+                        A Shipay é uma startup que possui um produto inovador que facilita os meios de pagamento através
+                        do pix. Durante o meu período na Shipay pude trabalhar na equipe de conciliação pix, utilizando
+                        tecnologias como: Python, Flask, PostgreSql, MongoDB, GCP, Kafka, Redis e Apache Airflow.
+                    </p>
+                </mat-card-content>
+                <mat-card-actions>
+                    <a href="https://www.shipay.com.br/">
+                        <button mat-button>SITE DA EMPRESA
+                        </button>
+                    </a>
+                </mat-card-actions>
+            </mat-card>
+        </mat-grid-tile>
+        <mat-grid-tile>
+            <mat-card class="generic-card">
+                <mat-card-header>
+                    <mat-card-title>
+                        DESENVOLVEDOR JÚNIOR
+                    </mat-card-title>
+
+                    <mat-card-subtitle>
+                        JUN 2023 - DEZ 2023
+                    </mat-card-subtitle>
+                </mat-card-header>
+                <br>
+                <mat-card-content>
+                    <p>
+                        A Kantar Ibope Media é lider de mercado no setor de audiencia. No meu período trabalhando nesta
+                        empresa pude trabalhar em projetos de audiência de Rádio e TV, utilizando tecnologias como:
+                        .NET, VB.NET, ASP.NET, Azure, SQL SERVER.
+                    </p>
+                </mat-card-content>
+                <mat-card-actions>
+                    <a href="https://kantaribopemedia.com/brazil/">
+                        <button mat-button>SITE DA EMPRESA
+                        </button>
+                    </a>
+                </mat-card-actions>
+            </mat-card>
+        </mat-grid-tile>
+        <mat-grid-tile>
+            <mat-card class="generic-card">
+                <mat-card-header>
+                    <mat-card-title>
+                        DESENVOLVEDOR PLENO
+                    </mat-card-title>
+
+                    <mat-card-subtitle>
+                        DEZ 2023 - ATUALMENTE
+                    </mat-card-subtitle>
+                </mat-card-header>
+                <br>
+                <mat-card-content>
+                    <p>
+                        A PUCCAMP é uma das melhores universidades privadas do país, atuo como desenvolvedor pleno, em sistemas implementados nas tecnologias: JAVA, .NET, SQL SERVER e Angular
+                    </p>
+                </mat-card-content>
+                <mat-card-actions>
+                    <a href="https://www.puc-campinas.edu.br/">
+                        <button mat-button>SITE DA EMPRESA
+                        </button>
+                    </a>
+                </mat-card-actions>
+            </mat-card>
+        </mat-grid-tile>
+    </mat-grid-list>
+
+    <div *ngIf="section === 'hobbies'">
+        <p>
+            Nao implementado
+        </p>
+    </div>
+</div>

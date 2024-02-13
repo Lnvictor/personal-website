@@ -1,0 +1,17 @@
+<mat-toolbar [color]="'primary'">
+    <mat-toolbar-row>
+        <div [ngClass]="'toolbar-item'" (click)="setSection('about')">
+            <span>Sobre Mim</span>
+        </div>
+        <div [ngClass]="'toolbar-item'" (click)="setSection('projects')">
+            <span>Projetos</span>
+        </div>
+        <div [ngClass]="'toolbar-item'" (click)="setSection('xp')">
+            <span>Experiência Profissional</span>
+        </div>
+        <div [ngClass]="'toolbar-item'" (click)="setSection('hobbies')">
+            <span>Hobbies</span>
+        </div>
+    </mat-toolbar-row>
+</mat-toolbar>
+<app-content [section]="currentSection"></app-content>

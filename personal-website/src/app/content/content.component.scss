@@ -1,0 +1,33 @@
+.section-grid{
+    margin-top: 7%;
+}
+
+.profile-photo{
+    align-self: baseline;
+    height: 70%;
+    border-radius: 40px;
+    border-color: white;
+    border-style: solid;
+}
+
+.text{
+    align-self: baseline;
+    font-size: 18px;
+    width: 70%;
+    margin-left: 0;
+    color: white;
+}
+
+.right-text{
+    margin-top: 10%;
+    align-self: baseline;
+    display: flex;
+    justify-content: baseline;
+}
+
+.generic-card{
+    height: 60%;
+    width: 70%;
+    background-color: rgb(83, 82, 82);
+    color: white;
+}
