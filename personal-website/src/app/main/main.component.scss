@@ -6,4 +6,10 @@
 
 .toolbar-item:hover{
     background-color: darkblue;
+    cursor: pointer;
+}
+
+.hovered-toolbar-item{
+    background-color: darkblue;
+    cursor: pointer;
 }

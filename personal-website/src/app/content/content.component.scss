@@ -1,8 +1,8 @@
-.section-grid{
-    margin-top: 7%;
+.section-grid {
+
 }
 
-.profile-photo{
+.profile-photo {
     align-self: baseline;
     height: 70%;
     border-radius: 40px;
@@ -10,7 +10,7 @@
     border-style: solid;
 }
 
-.text{
+.text {
     align-self: baseline;
     font-size: 18px;
     width: 70%;
@@ -18,16 +18,36 @@
     color: white;
 }
 
-.right-text{
+.right-text {
     margin-top: 10%;
     align-self: baseline;
     display: flex;
     justify-content: baseline;
 }
 
-.generic-card{
-    height: 60%;
-    width: 70%;
+.generic-card {
+    height: 40vh;
+    width: 60vh;
     background-color: rgb(83, 82, 82);
+    color: white;
+}
+
+.div-footer-btn {
+    position: absolute;
+    bottom: 0;
+}
+
+.tile{
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.title-div{
+    display: flex;
+    justify-content: center;
+    margin-top: 3%;
+}
+
+.title-div>H1{
     color: white;
 }
